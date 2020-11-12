@@ -8,7 +8,7 @@ from src.high_scores import latest, personal_best, personal_top_three
 class HighScoresTest(unittest.TestCase):
     
     # Tests
-
+        # THIS IS A TEST TO SEE IF THE GIT PULL HAS WORKED
     # Test latest score (the last thing in the list)
 
     # Test personal best (the highest score in the list)
