@@ -6,11 +6,15 @@ from src.high_scores import latest, personal_best, personal_top_three
 
 
 class HighScoresTest(unittest.TestCase):
-    
+    def setUp(self):
+        self.scores = [1,2,3]
     # Tests
-        # THIS IS A TEST TO SEE IF THE GIT PULL HAS WORKED
+    def tests_lists_latest_score(self):
+        last_score = latest(self.scores)
+        self.assertEqual(3, last_score)
     # Test latest score (the last thing in the list)
-
+    
+        
     # Test personal best (the highest score in the list)
 
     # Test top three from list of scores
